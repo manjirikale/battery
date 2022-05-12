@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+/* instead of namespace std you can use std::
+*/
+
+int main() {
+	int sum1 = 100 + 50;
+	int sum2 = sum1 + 250;
+	int sum3 = sum2 + sum2;
+	cout << sum1 << "\n";
+	cout << sum2 << "\n";
+	cout << sum3 << "\n";
+	return 0;
+	/* if int you put return any random integer
+	if void no return
+	*/
+}
